@@ -1,0 +1,253 @@
+body{
+ background-color:#d8c7a7;
+ grid-row: 25px;
+}
+p{
+    font-size: 23px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+img:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);   
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+h5{
+    font-size: 25px;
+}
+button{
+    background-color:red;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    border-style: double;
+    cursor: pointer;
+}
+button:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);   
+}
+.hero{
+    margin: 0px;
+    padding: 0px;
+    height: 50vh;
+    background-image: url(https://sherohomefood.in/wp-content/uploads/2021/05/SHF_home-slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    border-radius: 25px;
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 200px;
+    display: flexbox;
+    
+}
+h4{
+    font-size: 65px;
+    font-family: cursive;
+    height: 80px;
+    display: flexbox;
+}
+nav{
+    
+    text-align: right;
+    padding: 15px 20px;
+    background-color: #8B0000;
+    border-radius:25px ; 
+  
+}
+.page{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    background-color: transparent;
+
+}
+a{    
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+.homepage{
+    color: black;
+    position: fixed;
+    top: 20px;
+    left: 1px; 
+    text-align: left;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 25px;
+}
+ .order{
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 27px;
+    padding: 8px 15px ;
+    background-color: rgb(196, 44, 6);
+    color: white;
+    text-align: left; 
+    cursor: pointer;
+    display: flexbox;
+} 
+.popular{
+    display: flex;
+    padding: 25px 25px;
+    border-radius: 25px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+ .one{
+    padding: 15px 35px;
+ }
+ .one:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+    
+}
+.two{
+    padding:15px 35px;
+}
+.two:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+.three{
+    padding: 15px 35px;
+}
+.three:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+.four{
+    padding:15px 35px;
+}
+.four:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+.five{
+    padding:15px 35px;
+}
+.five:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+.six{
+    padding:15px 35px;
+}
+.six:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+} 
+.seven{
+    padding:15px 35px;
+}
+.seven:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+.eight{
+    padding:15px 35px;
+}
+.eight:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+footer{
+    font-size: 20px;
+    background-color: #8B0000;
+    color: white;
+    padding: 0px 0px 25px 25px;
+    padding-bottom: 25px;
+  
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+
+} 
+.select{
+    text-align: center;
+}
+.choose{
+    font-size: 25px;
+}
+.content{
+    position: relative;
+    color: white;
+    max-width: 500px;
+}
+.content h4{
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+
+.profile{
+    float: inline-start;
+    margin-left: 0px;
+}
+#toast {
+  visibility: hidden;
+  min-width: 260px;
+  background-color: #7a2e2e;  
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  border-radius: 15px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#toast.show {
+  visibility: visible;
+  animation: slideDown 0.4s, fadeOut 0.4s 2.2s;
+}
+
+@keyframes slideDown {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 20px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+ 

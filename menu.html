@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="select">
+<h3 class="choose">Choose Your Mood</h3>
+<button onclick="filterFood('all')">All</button>
+<button onclick="filterFood('veg')">Veg</button>
+<button onclick="filterFood('nonveg')">Non-Veg</button>
+</div>
+<nav class="page">
+  <a class="cartpage"href="cart.html">🛒</a>
+</nav>
+<div class="back">
+  <a class="homepage"href="index.html">❮</a>
+</div>
+<div class="menu">
+  <div class="food-item veg">
+    <p>Paneer Butter Masala</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2GVSX6yMjCLHtHBaQwyqjUw1rkC1sF9H8g&s" >
+    <p>₹150</p>
+    <button type="button" onclick="added">add to cart</button>
+  </div>
+
+  <div class="food-item nonveg">
+    <p>Chicken Biryani</p>
+    <img src="https://media.istockphoto.com/id/1410130688/photo/mutton-biryani-served-in-a-golden-dish-isolated-on-dark-background-side-view-indian-food.jpg?s=612x612&w=0&k=20&c=ueFrghYZuKAty-rFVe5dtMtNIbn0jaUsSvCUwTVOmd8=" >
+    <p>₹100</p>
+    <button>add to cart</button>
+  </div>
+
+  <div class="food-item nonveg">
+    <p>Mutton Curry</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6TgjacXwDTJox2K-INbJz45etv_wXLS0rQB31bzcNvhoVkoS8O66EQ7rjhptXJ6PfUnrSrJeAt-iMDBUolEqnHaB49yZHf9APKyDq8B16&s=10" >
+    <p>₹160</p>
+    <button>add o cart</button>
+  </div>
+   <div class="food-item veg">
+    <p>dosa</p>
+    <img src="https://delishglobe.com/wp-content/uploads/2024/09/Masala-dosa-1.png" >
+    <p>₹80</p>
+    <button>add to cart</button>
+  </div>
+   <div class="food-item veg">
+    <p>goll gappe</p>
+    <img src="https://blog.swiggy.com/wp-content/uploads/2024/08/Image-6_Pani-Puri-1024x538.png" >
+    <p>₹50</p>
+    <button>add to cart</button>
+  </div> 
+   <div class="food-item nonveg">
+    <p>chicken lollipop</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW09UN0xQs8vdQtb-j4sIi_b6_piBgKOF6rgCJUsaLbNyKJFw-y9U52oqdlJxva2tdC__ZtE85y3xMPGGyxf7zfd05zF89&s=10" >
+    <p>₹250</p>
+    <button>add to cart</button>
+
+  </div>
+   <div class="food-item veg">
+    <p>chole bhature</p>
+    <img src="https://bhojmasale.com/cdn/shop/articles/quick-tasty-chole-bhature-recipe-bhoj-masale-231434_1024x1024.webp?v=1739152902" >
+    <p>₹120</p>  
+    <button>add to cart</button>
+   </div>
+   <div class="food-item veg">
+    <p>white sauce pasta</p>
+    <img src="https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2017/08/white-sauce-pasta-recipe.jpg?w=1200&ssl=1" >
+    <p>₹175</p>
+    <button>add to cart</button>
+  </div>
+   <div class="food-item nonveg">
+    <p>non veg soup</p>
+     <img src="https://imranrestaurant.in/wp-content/uploads/2024/05/non-veg-clear-soup.jpg">
+    <p>₹115</p>
+   <button>add to cart</button>
+   </div>
+   <div class="food-item veg">
+    <p>veg thali</p>
+     <img src="https://c8.alamy.com/comp/2H7XJ2P/tasty-indian-lunch-pack-parcel-of-packed-food-consisting-of-variety-of-items-like-tandoori-roti-rice-salad-pickle-2H7XJ2P.jpg">
+    <p>₹110</p>
+   <button>add to cart</button>
+   </div>
+   <div class="food-item veg">
+    <p>dhokla</p>
+     <img src="https://www.bitesbee.com/wp-content/uploads/2021/09/Dhokla.jpg">
+    <p>₹70</p>
+   <button>add to cart</button>
+   </div>
+   <div class="food-item nonveg">
+    <p>chicken korma</p>
+     <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/08/chicken-korma-recipe.webp">
+    <p>₹215</p>
+   <button>add to cart</button>
+   </div>
+   <div class="food-item veg">
+    <p>pav bhaji</p>
+     <img src="https://blog.swiggy.com/wp-content/uploads/2024/09/Image-3_Pav-Bhaji-1024x538.png">
+    <p>₹115</p>
+   <button>add to cart</button>
+   </div>
+   <div class="food-item nonveg">
+    <p>chicken roll</p>
+     <img src="https://static.vecteezy.com/system/resources/thumbnails/052/824/999/small/chicken-shawarma-plated-on-a-rustic-wooden-board-free-photo.jpg">
+    <p>₹185</p>
+   <button>add to cart</button>
+   </div>
+   <div class="food-item veg">
+    <p>salad</p>
+     <img src="https://www.eatingwell.com/thmb/S2NGMEcgm11dtdBJ6Hwprwq-nVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eat-the-rainbow-chopped-salad-with-basil-mozzarella-beauty-185-278133-4000x2700-56879ac756cd46ea97944768847b7ea5.jpg">
+    <p>₹110</p>
+   <button>add to cart</button>
+   </div>
+</div>
+<script src="script.js">
+
+</script>
+<script>
+    function filterFood(type) {
+  let items = document.querySelectorAll(".food-item");
+
+  items.forEach(item => {
+    if (type === "all") {
+      item.style.display = "block";
+    }
+    else if (item.classList.contains(type)) {
+      item.style.display = "block";
+    }
+    else {
+      item.style.display = "none";
+    }
+  });
+}
+</script> 
+
+</body>
+</html>
